@@ -1,5 +1,5 @@
 ---
-lab:
+Laboratorio:
   Título: Crear un agente de información sobre beneficios
   Módulo: Crear agentes guiados por instrucciones en Microsoft Copilot Studio
   Descripción: Crea y prueba un agente de información sobre beneficios guiado por instrucciones con fuentes de conocimiento de la empresa y del gobierno.
