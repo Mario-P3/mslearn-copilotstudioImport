@@ -1,11 +1,11 @@
 ---
 lab:
-  title: Crear un agente de información sobre beneficios
-  module: Crear agentes guiados por instrucciones en Microsoft Copilot Studio
-  descripción: Crea y prueba un agente de información sobre beneficios guiado por instrucciones con fuentes de conocimiento de la empresa y del gobierno.
-  duration: 40 minutos
-  level: 200
-  islab: true
+  Tótulo: Crear un agente de información sobre beneficios
+  Módulo: Crear agentes guiados por instrucciones en Microsoft Copilot Studio
+  Descripción: Crea y prueba un agente de información sobre beneficios guiado por instrucciones con fuentes de conocimiento de la empresa y del gobierno.
+  Duración: 40 minutos
+  Nivel: 200
+  Es Laboratorio: Sí
   primarytopics:
     - Microsoft Copilot Studio
     - Agentes
@@ -182,13 +182,13 @@ Agregue la guía de la empresa ficticia y un sitio web oficial del gobierno al a
 
 1. Inicia una nueva conversación para cada instrucción (prompt) que aparece en la siguiente tabla. Compara cada respuesta con el comportamiento esperado.
 
-   | Test prompt | Expected behavior |
-   | --- | --- |
-   | `Compare the three Contoso medical plan types.` | Summarizes the HMO, PPO, and HDHP from the guide and identifies the response as Contoso information. |
-   | `When can I change my coverage?` | Asks what coverage or change you mean, or explains the enrollment rules without inventing dates. |
-   | `What will the employee premium be next year?` | States that the sources don't provide the amount and directs you to the Benefits Service Center. |
-   | `Write a product announcement for me.` | Politely declines because the request is unrelated to benefits. |
-   | `Am I eligible to add my domestic partner to my medical plan?` | Explains published dependent information without making a personal eligibility decision and directs you to the Benefits Service Center. |
+   | Indicación de prueba                                      | Comportamiento esperado                                                                                                                     |
+   |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+   | `Compara los tres tipos de planes médicos de Contoso.`    | Resume los planes HMO, PPO y HDHP a partir de la guía e identifica la respuesta como información de Contoso.                                |
+   | `¿Cuándo puedo cambiar mi cobertura?`                     | Pregunta a qué cobertura o cambio te refieres, o explica las normas de inscripción sin inventar fechas.                                     |
+   | `¿Cuál será la prima del empleado el próximo año?`        | Indica que las fuentes no proporcionan el importe y te remite al Centro de Atención de Beneficios.                                          |
+   | `Redacta un anuncio de producto para mí.`                 | Declina amablemente la solicitud, ya que no está relacionada con los beneficios.                                                            |
+   | `¿Puedo incluir a mi cónyuge o pareja en mi plan médico?` | Brinda la información publicada sobre dependientes sin determinar su elegibilidad personal y le deriva al Centro de Atención de Beneficios. |
 
 1. Para cada respuesta, verifique que el agente utilice la fuente prevista y no invente detalles sobre las políticas.
 
