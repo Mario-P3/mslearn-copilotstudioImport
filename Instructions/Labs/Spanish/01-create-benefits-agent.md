@@ -36,11 +36,11 @@ Este ejercicio tarda aproximadamente **40 minutos**.
 
 ## Requisitos previos
 
-Para completar este ejercicio, necesitas:
+Para completar este ejercicio, necesita:
 
 - Una cuenta de Microsoft Entra para profesionales o estudiantes.
 - [Acceso a Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
-- Permiso para crear un agente en un entorno de Power Platform.
+- Permisos para crear un agente en un entorno de Power Platform.
 - Acceso a una solución en el entorno si tu organización requiere que los agentes se creen en una solución.
 
 > [!NOTE]
@@ -228,5 +228,3 @@ El ejercicio se considera completado cuando el agente:
 - Evita tomar decisiones sobre la elegibilidad personal tras haber refinado el límite.
 
 Si su instructor o el administrador del entorno no requieren conservar el agente para su revisión, vuelva a la página **Agentes** (Agents), abra el menú de opciones del agente y elimínelo.
-
----
