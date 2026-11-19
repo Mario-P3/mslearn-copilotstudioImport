@@ -6,7 +6,7 @@ lab:
   Duración: 40 minutos
   Nivel: 200
   Es Laboratorio: Sí
-  primarytopics:
+  Temas principales:
     - Microsoft Copilot Studio
     - Agentes
 ---
