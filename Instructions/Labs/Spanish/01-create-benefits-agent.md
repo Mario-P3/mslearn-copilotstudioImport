@@ -2,7 +2,7 @@
 lab:
   title: Crear un agente de información sobre beneficios
   module: Crear agentes guiados por instrucciones en Microsoft Copilot Studio
-  description: Crea y prueba un agente de información sobre beneficios guiado por instrucciones con fuentes de conocimiento de la empresa y del gobierno.
+  descripción: Crea y prueba un agente de información sobre beneficios guiado por instrucciones con fuentes de conocimiento de la empresa y del gobierno.
   duration: 40 minutos
   level: 200
   islab: true
