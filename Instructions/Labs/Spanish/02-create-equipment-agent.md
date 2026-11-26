@@ -40,7 +40,7 @@ Para completar este ejercicio, necesita:
 
 - Una cuenta de Microsoft Entra para profesionales o estudiantes.
 - [Acceso a Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
-![Acceso a Copilot](../../media/Spanish/copilot-studio-home-page-SignIn-ES.png "Acceso a Copilot")
+![Acceso a Copilot](../../media/Spanishcopilot-studio-launcher-ES/.png "Acceso a Copilot")
 - Permisos para crear un agente en un entorno de Power Platform.
 - Acceso a un sitio de SharePoint donde pueda crear una lista y utilizar el conector de SharePoint.
 - Acceso a una solución en el entorno si tu organización requiere que los agentes se creen en una solución.
@@ -55,7 +55,7 @@ Cree un origen de datos independiente para este ejercicio.
 > [!NOTE]
 > Si no dispone de un sitio de SharePoint, cree uno antes de continuar:
 > 1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.
-![Acceso a Copilot](../../media/Spanish/copilot-studio-launcher-A.png "Inicio de sesión")
+![Acceso a Copilot](../../media/Spanish/copilot-studio-home-page-SignIn-ES.png "Inicio de sesión")
 > 2. Seleccione el icono del iniciador de aplicaciones **(⋮⋮⋮)** y, a continuación, elija **SharePoint**. Si no lo ve, seleccione **Más aplicaciones**.
 > 3. En el menú de navegación de la izquierda, seleccione **Crear** (Build) y, después, elija **Sitio** > **Sitio de equipo**.
 > 4. Si se le solicita elegir una plantilla, seleccione **Equipo estándar** (Standard team) y, a continuación, haga clic en **Usar plantilla**.
