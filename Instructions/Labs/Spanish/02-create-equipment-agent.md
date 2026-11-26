@@ -55,13 +55,11 @@ Cree un origen de datos independiente para este ejercicio.
 > Si no dispone de un sitio de SharePoint, cree uno antes de continuar:
 > 1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.
 <br/>
-<p align="center">
    <img
       src="../../media/Spanish/copilot-studio-launcher-ES.png"
       alt="Inicio de sesión"
       width="250"
-      height="85">
-</p>
+      height="85"/>
 <br/>
    <img
       src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
