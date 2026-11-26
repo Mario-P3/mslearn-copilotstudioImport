@@ -55,13 +55,11 @@ Cree un origen de datos independiente para este ejercicio.
 > [!NOTE]
 > Si no dispone de un sitio de SharePoint, cree uno antes de continuar:
 > 1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.
-<p align="center">
    <img
       src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
       alt="Inicio de sesión"
       width="300"
-      height="300">
-</p>
+      height="300"/>
 > 3. Seleccione el icono del iniciador de aplicaciones **(⋮⋮⋮)** y, a continuación, elija **SharePoint**. Si no lo ve, seleccione **Más aplicaciones**.
 > 4. En el menú de navegación de la izquierda, seleccione **Crear** (Build) y, después, elija **Sitio** > **Sitio de equipo**.
 > 5. Si se le solicita elegir una plantilla, seleccione **Equipo estándar** (Standard team) y, a continuación, haga clic en **Usar plantilla**.
