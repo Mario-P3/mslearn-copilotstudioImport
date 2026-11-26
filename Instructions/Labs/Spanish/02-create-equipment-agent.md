@@ -40,7 +40,7 @@ Para completar este ejercicio, necesita:
 
 - Una cuenta de Microsoft Entra para profesionales o estudiantes.
 - [Acceso a Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
-![Acceso a Copilot](../../media/Spanish/copilot-studio-launcher-ES.png "Acceso a Copilot")
+![Acceso a Copilot](../../media/Spanish/copilot-studio-home-page-SignIn-ES.png "Acceso a Copilot")
 - Permisos para crear un agente en un entorno de Power Platform.
 - Acceso a un sitio de SharePoint donde pueda crear una lista y utilizar el conector de SharePoint.
 - Acceso a una solución en el entorno si tu organización requiere que los agentes se creen en una solución.
