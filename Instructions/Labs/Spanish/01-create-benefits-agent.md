@@ -100,8 +100,7 @@ Crear la guía ficticia de la empresa que el agente utilizará como fuente de co
   src="../../media/Spanish/copilot-studio-launcher-ES.png"
   alt="Inicio de sesión"
   width="250"
-  height="85">
-<br/>
+  height="85"/>
 <img
 	src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
 	alt="Inicio de sesión"
