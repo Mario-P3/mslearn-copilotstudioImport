@@ -96,19 +96,17 @@ Crear la guía ficticia de la empresa que el agente utilizará como fuente de co
 ## Ejercicio 2 - Crear el agente
 
 1. Ve a [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) en `https://copilotstudio.microsoft.com/` e inicia sesión.
-<div align="center">
-   <img
-      src="../../media/Spanish/copilot-studio-launcher-ES.png"
-      alt="Inicio de sesión"
-      width="250"
-      height="85">
-	<br/>
-	<img
-		src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
-		alt="Inicio de sesión"
-		width="300"
-		height="300"/>
-</div>
+<img
+  src="../../media/Spanish/copilot-studio-launcher-ES.png"
+  alt="Inicio de sesión"
+  width="250"
+  height="85">
+<br/>
+<img
+	src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
+	alt="Inicio de sesión"
+	width="300"
+	height="300"/>
 
 1. Confirma que el entorno correcto esté seleccionado.
 
