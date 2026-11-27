@@ -175,7 +175,7 @@ Create a standalone data source for this exercise.
 
 ## Exercise 4 - Create the agent
 
-![Copilot Studio home page showing the Agent and Workflow options.](../media/copilot-studio-home-page.png)
+![Copilot Studio home page showing the Agent and Workflow options.](../../media/copilot-studio-home-page.png)
 
 1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) at `https://copilotstudio.microsoft.com/` and sign in.
 
