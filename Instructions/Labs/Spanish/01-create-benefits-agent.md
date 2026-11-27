@@ -95,16 +95,6 @@ Crear la guía ficticia de la empresa que el agente utilizará como fuente de co
 
 ## Ejercicio 2 - Crear el agente
 
-<style>
-  .contenedor {
-    display: flex;
-    align-items: flex-start; /* Alinea los elementos en la parte superior */
-    justify-content: center; /* Opcional: centra la imagen horizontalmente */
-    height: 300px;
-    border: 1px solid #ccc;
-  }
-</style>
-
 1. Ve a [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) en `https://copilotstudio.microsoft.com/` e inicia sesión.
 <div class="contenedor">
 <img
