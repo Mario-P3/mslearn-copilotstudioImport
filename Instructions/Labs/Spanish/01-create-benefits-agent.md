@@ -40,7 +40,6 @@ Para completar este ejercicio, necesita:
 
 - Una cuenta de Microsoft Entra para profesionales o estudiantes.
 - [Acceso a Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
-![Acceso a Copilot](../../media/copilot-studio-launcher.png "Acceso a Copilot")
 - Permisos para crear un agente en un entorno de Power Platform.
 - Acceso a una solución en el entorno si tu organización requiere que los agentes se creen en una solución.
 
@@ -97,7 +96,12 @@ Crear la guía ficticia de la empresa que el agente utilizará como fuente de co
 ## Ejercicio 2 - Crear el agente
 
 1. Ve a [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) en `https://copilotstudio.microsoft.com/` e inicia sesión.
-![Acceso a Copilot](../../media/copilot-studio-launcher-signin.png "Inicio de sesión")
+<br/>
+<img
+	src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
+	alt="Inicio de sesión"
+	width="300"
+	height="300"/>
 
 1. Confirma que el entorno correcto esté seleccionado.
 
