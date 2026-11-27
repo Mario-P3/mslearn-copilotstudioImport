@@ -42,18 +42,29 @@ Para completar este ejercicio, necesitas:
 - [Acceso a Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
 - Permiso para crear un agente en un entorno de Power Platform.
 - Una cuenta de Microsoft 365 con un buzón de Outlook. La conexión de Outlook usa esta cuenta para enviar correos electrónicos.
-- Acceso a una solución en el entorno si tu organización requiere que los agentes y flujos de trabajo se creen en una solución.
+- Acceso a una solución en el entorno si su organización requiere que los agentes y flujos de trabajo se creen en una solución.
 
 > [!NOTE]
-> Compilar y probar un agente con tecnología del arnés de GitHub Copilot podría consumir Copilot Credits.
+> Crear y probar un agente con la herramienta GitHub Copilot puede consumir créditos (tokens) de Copilot.
 
-## Ejercicio 1: Crear el agente
+## Ejercicio 1 - Crear el agente
 
-### Tarea 1.1: Crear y configurar el agente de alertas de tareas de Contoso
+### Tarea 1.1 - Crear y configurar el agente de alertas de tareas de Contoso
 
-1. Ve a [Microsoft Copilot Studio](https://copilotstudio.microsoft.com/) en `https://copilotstudio.microsoft.com/` e inicia sesión.
+1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.\
+<img
+	src="../../media/Spanish/copilot-studio-launcher-ES.png"
+	alt="Acceso a Copilot Studio"
+	decoding="async" loading="lazy"
+	width="260"
+	height="95"/>\
+<img
+	src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
+	alt="Inicio de sesión"
+	width="300"
+	height="300"/>
 
-1. Confirma que esté seleccionado el entorno correcto.
+1. Confirme que esté seleccionado el entorno correcto.
 
 1. En la página **Home**, selecciona **Agent**. Como alternativa, selecciona **Agents** en el panel de navegación izquierdo y, después, selecciona **New agent**.
 

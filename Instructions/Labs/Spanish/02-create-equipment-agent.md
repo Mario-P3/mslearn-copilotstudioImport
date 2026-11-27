@@ -42,7 +42,7 @@ Para completar este ejercicio, necesita:
 - [Acceso a Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/requirements-licensing-subscriptions).
 - Permisos para crear un agente en un entorno de Power Platform.
 - Acceso a un sitio de SharePoint donde pueda crear una lista y utilizar el conector de SharePoint.
-- Acceso a una solución en el entorno si tu organización requiere que los agentes se creen en una solución.
+- Acceso a una solución en el entorno si su organización requiere que los agentes se creen en una solución.
 
 > [!NOTE]
 > Crear y probar un agente con la herramienta GitHub Copilot puede consumir créditos (tokens) de Copilot.
