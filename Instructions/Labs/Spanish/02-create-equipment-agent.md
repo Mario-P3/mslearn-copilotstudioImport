@@ -53,23 +53,24 @@ Cree un origen de datos independiente para este ejercicio.
 
 > [!NOTE]
 > Si no dispone de un sitio de SharePoint, cree uno antes de continuar:
-> 1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.\
-   <img
-      src="../../media/Spanish/copilot-studio-launcher-ES.png"
-      alt="Inicio de sesión"
-      width="250"
-      height="85"/>\
-   <img
-      src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
-      alt="Inicio de sesión"
-      width="300"
-      height="300"/>
-> 4. Seleccione el icono del iniciador de aplicaciones **(⋮⋮⋮)** y, a continuación, elija **SharePoint**. Si no lo ve, seleccione **Más aplicaciones**.
-> 5. En el menú de navegación de la izquierda, seleccione **Crear** (Build) y, después, elija **Sitio** > **Sitio de equipo**.
-> 6. Si se le solicita elegir una plantilla, seleccione **Equipo estándar** (Standard team) y, a continuación, haga clic en **Usar plantilla**.
-> 7. Introduzca `PL7008 Equipamiento <sus iniciales>` como nombre del sitio; sustituya `<sus iniciales>` por un valor único.
-> 8. Asegúrese de que la **Configuración de privacidad** esté establecida en **Privado: solo los miembros pueden acceder a este sitio**; deje el resto de la configuración con sus valores predeterminados y seleccione **Crear sitio**.
-> 9. Si se le solicita añadir miembros, puede omitir este paso y seleccionar **Ir al sitio**. Espere a que se abra el nuevo sitio.
+> 1. Acceda a [Microsoft Copilot](https://copilot.cloud.microsoft/) en `https://copilot.cloud.microsoft` e inicie sesión con sus credenciales de laboratorio.
+<img
+	src="../../media/Spanish/copilot-studio-launcher-ES.png"
+	alt="Acceso a Copilot Studio"
+	decoding="async" loading="lazy"
+	width="260"
+	height="95"/>\
+<img
+	src="../../media/Spanish/copilot-studio-home-page-SignIn-ES.png"
+	alt="Inicio de sesión"
+	width="300"
+	height="300"/>
+> 2. Seleccione el icono del iniciador de aplicaciones **(⋮⋮⋮)** y, a continuación, elija **SharePoint**. Si no lo ve, seleccione **Más aplicaciones**.
+> 3. En el menú de navegación de la izquierda, seleccione **Crear** (Build) y, después, elija **Sitio** > **Sitio de equipo**.
+> 4. Si se le solicita elegir una plantilla, seleccione **Equipo estándar** (Standard team) y, a continuación, haga clic en **Usar plantilla**.
+> 5. Introduzca `PL7008 Equipamiento <sus iniciales>` como nombre del sitio; sustituya `<sus iniciales>` por un valor único.
+> 6. Asegúrese de que la **Configuración de privacidad** esté establecida en **Privado: solo los miembros pueden acceder a este sitio**; deje el resto de la configuración con sus valores predeterminados y seleccione **Crear sitio**.
+> 7. Si se le solicita añadir miembros, puede omitir este paso y seleccionar **Ir al sitio**. Espere a que se abra el nuevo sitio.
 
 1. Abra el sitio de SharePoint que utiliza para el ejercicio y, a continuación, seleccione **Nuevo** > **Lista**. En **Crear desde cero**, seleccione **Lista**.
 
@@ -192,11 +193,11 @@ Cree un origen de datos independiente para este ejercicio.
 
 1. En la página de **Inicio**, selecciona **Agente**. Alternativamente, selecciona **Agentes** en el menú de navegación de la izquierda y, a continuación, selecciona **Nuevo agente**.
 
-1. En el campo **Nombre**, introduce `Contoso Equipment Advisor <tus iniciales>`.
+1. En el campo **Nombre**, introduzca `Contoso Equipment Advisor <tus iniciales>`.
 
 1. Si tu organización requiere una solución, selecciona **Más opciones** (**...**) en la esquina superior derecha y, después, elige **Configuración**. En **Configuración del agente** > **Detalles del agente**, revisa la lista **Solución**. Si la solución proporcionada para el ejercicio no está seleccionada, elígela y haz clic en **Listo**. Si ya está seleccionada, no es necesario hacer clic en **Listo**; simplemente cierra el cuadro de diálogo de configuración.
 
-1. En **Instrucciones**, introduce el siguiente texto:
+1. En **Instrucciones**, introduzca el siguiente texto:
 
    ```prompt
    Eres el Contoso Equipment Advisor (Asesor de Equipamiento de Contoso). Ayuda a los empleados a comprender las normas sobre equipamiento e identifica el equipo disponible actualmente. 
@@ -246,40 +247,43 @@ Cree un origen de datos independiente para este ejercicio.
 > [!NOTE]
 > Los campos del conector pueden variar según la versión del mismo. Si la acción muestra parámetros de entrada obligatorios adicionales, configúralos de manera que la acción devuelva todos los elementos de la lista de ejercicios.
 
-## Exercise 7 - Test knowledge and the tool
+## Ejercicio 7 - Probar los conocimientos y la herramienta
 
-1. Select the **Preview** tab.
+1. Selecciona la pestaña **Vista previa** (Preview).
 
-1. Start a new conversation by entering `What is the equipment rule for a data analyst who works with large spreadsheets?` and submit it.
+1. Inicia una nueva conversación, introduzca `¿Cuál es la política de equipamiento para un analista de datos que trabaja con hojas de cálculo de gran tamaño?` y envíela.
 
-1. Verify that the response uses and cites the policy. It should explain the performance laptop and ultrawide monitor rules without claiming that either item is available.
+1. Verifique que la respuesta utilice y cite la política. Debe explicar las normas relativas a los portátiles de alto rendimiento y los monitores ultra anchos (ultrawide), sin afirmar que alguno de estos elementos esté disponible.
 
-1. Start a new conversation, enter `Which laptops are currently available in Seattle?` and submit it.
+1. Inicia una nueva conversación, introduzca la siguiente pregunta `¿Qué portátiles hay disponibles actualmente en Seattle?` y envíela.
 
-1. If prompted, select **Approve** to grant the agent permission to use SharePoint. You may need to grant permission more than once.
+1. Si se le solicita, seleccione **Aprobar** (Approve) para conceder al agente permiso para utilizar SharePoint. Es posible que deba conceder el permiso más de una vez.
 
-1. Verify that the agent uses the **Get equipment inventory** tool and reports only laptops with available units in Seattle.
+1. Verifica que el agente utilice la herramienta **Obtener inventario de equipamiento** (Get equipment inventory) y que solo informe sobre los portátiles que tienen unidades disponibles en Seattle.
 
-1. Start a new conversation, enter `Which travel laptop can I get in Chicago?` and submit it.
+1. Inicia una nueva conversación, introduzca la pregunta `¿Qué portátil para viajes puedo conseguir en Chicago?` y envíela.
 
-1. Verify that the agent reports that no travel laptops are currently available in Chicago and doesn't recommend the out-of-stock travel laptop.
+1. Verifica que el agente indique que no hay portátiles para viajes disponibles actualmente en Chicago y que no recomiende un modelo que esté agotado.
 
-## Exercise 8 - Add and test the supplied skill
+## Ejercicio 8 - Añadir y probar la habilidad (skill) proporcionada
 
-1. Return to the **Build** tab and select the **Skills** section in the components panel.
+1. Vuelve a la pestaña **Crear** (Build) y selecciona la sección **Habilidades** (Skills) en el panel de componentes.
 
-1. Select **Upload a skill**, upload `equipment-recommendation.md`, and confirm that the skill appears under **Skills**.
+1. Selecciona **Cargar una habilidad** (Upload a skill), sube el archivo `equipment-recommendation.md` y confirma que la habilidad (skill) aparece bajo **Habilidades** (Skills).
 
-1. Select the **Preview** tab, start a new conversation, enter `Recommend a laptop for a data analyst in Seattle who runs local data models. I don't have any accessibility requirements` and submit it.
+   > [!NOTE]
+   > Si la carga de la habilidad (skill) falla, seleccione **Habilidades** (Skills) > **Crear desde cero** (Create from blank), introduzca `equipment-recommendation` como nombre de la habilidad (skill) y `Utilizar cuando un usuario solicite una recomendación de portátil o monitor` como descripción y, a continuación, copie el contenido de la habilidad (skill) proporcionada en la nueva habilidad (skill) y seleccione **Crear** (Create).
 
-1. Verify that the skill guides the agent to consult the policy, retrieve inventory, and recommend the available performance laptop with an explanation.
+1. Selecciona la pestaña **Vista previa** (Preview), inicia una nueva conversación, introduzca `Recomienda un portátil para un analista de datos en Seattle que ejecuta modelos de datos locales. No tengo requisitos de accesibilidad` y envíela.
 
-1. Start a new conversation, enter `Help me outfit a new data analyst's home office in Seattle for large spreadsheets. There are no accessibility requirements` and submit it.
+1. Verifica que la habilidad (skill) guíe al agente para consultar la política, recuperar el inventario y recomendar el portátil de alto rendimiento disponible, incluyendo una explicación.
 
-1. Inspect the activity details. The skill's initial description mentions only a laptop or monitor recommendation, so the broader setup request might not activate it or might produce an incomplete result.
+1. Inicia una nueva conversación, introduzca `Ayúdame a equipar la oficina en casa de un nuevo analista de datos en Seattle para trabajar con hojas de cálculo de gran tamaño. No hay requisitos de accesibilidad` y envíela.
+
+1. Examine los detalles de la actividad. La descripción inicial de la habilidad (skill) solo menciona la recomendación de un portátil o un monitor; por lo tanto, es posible que una solicitud más general sobre el equipamiento no la active o que genere un resultado incompleto.
 
 > [!NOTE]
-> Generative behavior can vary. If the skill activates and produces a complete result, use `Plan an approved equipment setup for a new analyst in Seattle` as the broader activation test.
+> El comportamiento generativo puede variar. Si la habilidad (skill) se activa y genera un resultado completo, utilice «Planificar una configuración de equipo aprobada para un nuevo analista en Seattle» como prueba de activación más amplia.
 
 ## Ejercicio 9 - Refinar la descripción de la habilidad (skill)
 
@@ -299,7 +303,7 @@ Cree un origen de datos independiente para este ejercicio.
 
 1. Verifique que el agente recopile la información faltante, utilice la política y la herramienta de inventario de equipos (*Get equipment inventory*), recomiende únicamente elementos disponibles y explique por qué cada elemento es adecuado.
 
-1. Inicie otra conversación nueva, introduce la pregunta `¿Cómo horneo una hogaza de pan?` y envíala.
+1. Inicie otra conversación nueva, introduzca la pregunta `¿Cómo horneo una hogaza de pan?` y envíela.
 
 1. Verifique que la habilidad (skill) relacionada con el equipamiento no se active y que el agente indique que dicha solicitud, al no estar relacionada, queda fuera de su ámbito de actuación.
 
